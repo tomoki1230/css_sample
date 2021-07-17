@@ -1,0 +1,45 @@
+h1 {
+  color: blue;
+}
+
+.font-style {
+  color: red;
+}
+
+/* キーワードによる色の指定 */
+.keyword {
+  color: orange;
+  font-size: 30px;
+  background-color: green;
+}
+
+/* 16進数による色の指定 */
+.hexadecimal {
+  color: #ffa500;
+}
+
+/* RGBによる色の指定 */
+.rgb {
+  color: rgb(255, 165, 0);
+}
+
+/* ゴシック体 */
+.gothic {
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/* 明朝体 */
+.mincho {
+  font-family:  "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.bg-image {
+  background-image: url("https://picsum.photos/id/237/300/200");
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+  color: white;
+}
